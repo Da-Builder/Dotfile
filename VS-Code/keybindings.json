@@ -1,0 +1,135 @@
+[
+    // Utility Shortcut
+    {
+        "key": "shift+space shift+space",
+        "command": "workbench.action.quickOpen"
+    },
+
+    // Explorer Shortcut
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder"
+    },
+
+    // Editor Shortcut
+    {
+        "key": "shift+space space space",
+        "command": "workbench.action.toggleMaximizeEditorGroup"
+    },
+
+    {
+        "key": "shift+space space left",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "shift+space space right",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "shift+space left",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "shift+space right",
+        "command": "workbench.action.focusRightGroup"
+    },
+
+    // Sidebar Shortcut
+    {
+        "key": "shift+space shift+left",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "shift+space shift+right",
+        "command": "workbench.action.toggleAuxiliaryBar"
+    },
+
+    {
+        "key": "shift+space e",
+        "command": "workbench.view.explorer",
+        "when": "!(sideBarFocus && activeViewlet == 'workbench.view.explorer')"
+    },
+    {
+        "key": "shift+space e",
+        "command": "workbench.action.closeSidebar",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'"
+    },
+
+    {
+        "key": "shift+space f",
+        "command": "workbench.view.search",
+        "when": "!(sideBarFocus && activeViewlet == 'workbench.view.search')"
+    },
+    {
+        "key": "shift+space f",
+        "command": "workbench.action.closeSidebar",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.search'"
+    },
+
+    {
+        "key": "shift+space s",
+        "command": "workbench.view.scm",
+        "when": "!(sideBarFocus && activeViewlet == 'workbench.view.scm')"
+    },
+    {
+        "key": "shift+space s",
+        "command": "workbench.action.closeSidebar",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.scm'"
+    },
+
+    {
+        "key": "shift+space d",
+        "command": "workbench.view.debug",
+        "when": "!(sideBarFocus && activeViewlet == 'workbench.view.debug')"
+    },
+    {
+        "key": "shift+space d",
+        "command": "workbench.action.closeSidebar",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.debug'"
+    },
+
+    // Panel Shortcut
+    {
+        "key": "shift+space down down",
+        "command": "workbench.action.focusPanel",
+        "when": "!panelFocus"
+    },
+    {
+        "key": "shift+space down down",
+        "command": "workbench.action.closePanel",
+        "when": "panelFocus"
+    },
+
+    {
+        "key": "shift+space down space",
+        "command": "terminal.focus",
+        "when": "activePanel != 'terminal'"
+    },
+
+    {
+        "key": "shift+space down up",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelFocus"
+    },
+    {
+        "key": "shift+space down left",
+        "command": "workbench.action.previousPanelView",
+        "when": "activePanel"
+    },
+    {
+        "key": "shift+space down right",
+        "command": "workbench.action.nextPanelView",
+        "when": "activePanel"
+    },
+
+    // Removed Shortcut
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    }
+]

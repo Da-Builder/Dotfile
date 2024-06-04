@@ -1,0 +1,33 @@
+General Extensions
+- Atom One Dark
+- Code Spell Checker
+- Disable Ligature
+- ErrorLens
+- Gitignore
+- Gitlens
+- Hungry Delete
+- Indent Rainbow
+- Intellicode
+- Intellicode API
+- Intellicode Completions
+- Live Preview
+- Material Icon
+- Material Product
+- Multi Cursor
+- Path Intellisense
+- Prettier
+- Project Manager
+- Quick & Simple
+
+
+Python Development Extensions
+- Auto Docs
+- Black
+- ISort
+- PyLance
+- Python
+- Python Debugger
+
+Web Development Extensions
+- HTML CSS
+- CSS Peek

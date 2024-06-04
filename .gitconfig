@@ -1,0 +1,11 @@
+[user]
+	name = Alex Xu
+	email = Da.Alexxu@gmail.com
+[init]
+	defaultBranch = main
+[alias]
+	s = status
+	ls = log --oneline
+	ll = log
+	lsg = log --oneline --graph
+	amend = commit --amend
