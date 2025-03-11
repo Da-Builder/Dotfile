@@ -1,0 +1,17 @@
+[user]
+	name = Alex Xu
+	email = Da.Alexxu@gmail.com
+[init]
+	defaultBranch = main
+[alias]
+	a = add
+	c = commit
+	s = status
+	co = checkout
+	cm = commit --message
+	ls = log --oneline
+	la = log --oneline --all
+	lg = log --oneline --graph
+	lag = log --oneline --all --graph
+	fix = commit --amend --no-edit
+	amend = commit --amend
