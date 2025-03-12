@@ -3,11 +3,14 @@ Name = Terminal One Dark
 
 Foreground = #abb2bf
 Background = #282c34
-TitlebarForeground = #ffffff
+TitlebarForeground = #abb2bf
 TitlebarBackground = #21252b
 
-Cursor = #abb2bf
+BellForeground = #ffffff
+RemoteForeground = #ffffff
+SuperuserForeground = #ffffff
 
+Cursor = #abb2bf
 Color0 = #5c6370
 Color1 = #e06c75
 Color2 = #98c379
@@ -16,7 +19,6 @@ Color4 = #61afef
 Color5 = #c678dd
 Color6 = #56b6c2
 Color7 = #abb2bf
-
 Color8 = #5c6370
 Color9 = #e06c75
 Color10 = #98c379
