@@ -12,6 +12,8 @@ def setup() -> None:
     if not (path := Path(PATH).expanduser()).parent.exists():
         path.parent.mkdir()
 
+    if path.is_dir(follow_symlinks=False):
+        path.rmdir()
     if not path.exists():
         path.symlink_to(Path(__file__).parent)
 
