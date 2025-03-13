@@ -1,18 +1,13 @@
 # /Git/__init__.py
 
 
+# Define Setup
 def setup() -> None:
     from pathlib import Path
 
-    configuration: Path = Path("~/.config/git").expanduser()
-    parent: Path = Path(__file__).parent
-
-    if not configuration.exists():
-        configuration.symlink_to(parent)
-        print(f"{parent.name.title()}: Successfully Established Link")
-
-    else:
-        print(f"{parent.name.title()}: Already Established Link")
+    PATH = "~/.config/git/"
+    if not (path := Path(PATH).expanduser()).exists():
+        path.symlink_to(Path(__file__).parent)
 
 
 if __name__ == "__main__":
