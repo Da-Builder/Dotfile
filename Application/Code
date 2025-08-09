@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Code
+Type=Application
+Icon=code
+Exec=code --user-data-dir=".var/Code" --extensions-dir=".var/Code/Extension" %F

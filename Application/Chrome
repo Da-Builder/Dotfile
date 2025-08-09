@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Chrome
+Type=Application
+Icon=chrome
+Exec=google-chrome --user-data-dir=".var/Chrome" %U

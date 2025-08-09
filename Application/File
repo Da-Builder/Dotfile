@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=File
+Type=Application
+Icon=nautilus
+Exec=nautilus
