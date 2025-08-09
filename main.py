@@ -1,14 +1,13 @@
-# /setup.py
+# /main.py
 
 
-# Define Main
 def main() -> None:
-    import Git as git
-    import Terminal as terminal
+	import Application
+	import Git
 
-    git.setup()
-    terminal.setup()
+	Git.setup()
+	Application.setup()
 
 
 if __name__ == "__main__":
-    main()
+	main()
